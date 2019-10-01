@@ -1,0 +1,52 @@
+*{
+  font-family: sans-serif;
+}
+main{
+  margin-left: 150px;
+  color:#696969;
+}
+.main-section{
+  width:90%;
+}
+#navbar{
+  position:sticky;
+  display: block;
+  background-color: gray;
+  color:#ffffff;
+}
+
+nav.sidenav a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+h2{
+  padding:5px;
+  padding-left: 16px;
+}
+
+code{
+  background-color: lightgray;
+  display:block;
+  width:90%;
+  padding:5px;
+}
+@media (min-width:600px){
+  nav#navbar{
+    height: 100%;
+    width:150px;
+    position: fixed;
+    top:0;
+    left:0;
+    display: block;
+  }
+}
+
+@media (max-width:600px){
+  main{
+    margin-left: 20px;
+  }
+}
